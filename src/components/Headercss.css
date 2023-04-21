@@ -1,0 +1,27 @@
+.Header__Text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+  text-decoration: none;
+}
+
+.Header__Button:hover,
+.Header__Button a:hover {
+  transform: scale(1.5);
+  color: #ffffff;
+}
+
+.nav-link {
+  text-align: center;
+  color: #959595 !important;
+}
+
+.nav-link:hover {
+  transition: transform 0.3s;
+  transform: scale(1.5);
+  color: #ffffff !important;
+  font-weight: bold;
+}

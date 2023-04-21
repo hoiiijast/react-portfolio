@@ -1,0 +1,136 @@
+.Main__HomeSection {
+  padding: 5rem 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.HomeSection__Text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+}
+
+.HomeSection__MainText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+}
+
+.HomeSection__SubText,
+.AboutSection__Content {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  color: #959595;
+}
+
+.HomeSection__Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.HomeSection__IconsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.SocMed__Icons {
+  height: 2.5rem;
+  transition: transform 0.3s;
+}
+
+.SocMed__Icons:hover {
+  transform: scale(1.5);
+}
+
+.Person__Picture1 {
+  height: 25rem;
+  border-radius: 50%;
+}
+
+button.HomeSection__EmailButton {
+  background: #9d9d9d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+  gap: 16px;
+  width: 350px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  border-color: #9d9d9d;
+}
+
+button.HomeSection__EmailButton:hover {
+  cursor: pointer;
+  background-color: #696969;
+  border-color: #696969;
+}
+
+@media (max-width: 1100px) {
+  .Main__HomeSection {
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .HomeSection__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    order: 2;
+  }
+  .HomeSection__MainText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #dedede;
+  }
+
+  .Main__Emp {
+    font-size: 36px;
+  }
+
+  .HomeSection__SubText,
+  .AboutSection__Content {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #959595;
+    text-align: center;
+  }
+
+  .HomeSection__Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .Person__Picture1 {
+    height: 18rem;
+    border-radius: 50%;
+  }
+  .HomeSection__IconsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
