@@ -1,5 +1,5 @@
 .Main__HomeSection {
-  padding: 5rem 3rem;
+  padding: 5rem 100px;
   display: flex;
   align-items: center;
 }
@@ -14,7 +14,7 @@
 .HomeSection__MainText {
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 70px;
   letter-spacing: -0.5px;
   color: #dedede;
@@ -82,10 +82,10 @@ button.HomeSection__EmailButton:hover {
 
 @media (max-width: 1100px) {
   .Main__HomeSection {
-    padding: 5rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 28px;
+    padding: 5rem 3rem;
   }
   .HomeSection__Text {
     display: flex;
@@ -123,14 +123,44 @@ button.HomeSection__EmailButton:hover {
     justify-content: center;
     align-items: center;
     order: 1;
+    width: auto;
   }
   .Person__Picture1 {
-    height: 18rem;
+    height: 14rem;
     border-radius: 50%;
   }
   .HomeSection__IconsContainer {
     display: flex;
     justify-content: center;
     gap: 20px;
+  }
+  .SocMed__Icons {
+    height: 1.5rem;
+    transition: transform 0.3s;
+  }
+}
+
+@media (max-width: 651px) {
+  .HomeSection__MainText {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .HomeSection__Text {
+    width: auto;
+  }
+
+  .Main__Emp {
+    font-size: 20px;
+  }
+
+  .HomeSection__SubText {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .Person__Picture1 {
+    height: 10rem;
+    border-radius: 50%;
   }
 }

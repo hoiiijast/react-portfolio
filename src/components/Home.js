@@ -22,10 +22,10 @@ const Home = () => {
             <img className="SocMed__Icons" src={github} />
           </a>
           <a href="https://www.linkedin.com/in/justin-lenard-fernando-40731a171/">
-            <img className="SocMed__Icons" src={twitter} />
+            <img className="SocMed__Icons" src={linkedin} />
           </a>
           <a href="https://twitter.com/hoiiijast">
-            <img className="SocMed__Icons" src={linkedin} />
+            <img className="SocMed__Icons" src={twitter} />
           </a>
           <a href="https://www.instagram.com/hoiiijast/">
             <img className="SocMed__Icons" src={instagram} />

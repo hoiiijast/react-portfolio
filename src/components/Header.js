@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar variant="dark" bg="dark" className="px-5 py-3" expand="lg">
+    <Navbar className="Header__Navbar" variant="dark" bg="dark" expand="lg">
       <Navbar.Brand href="#home">
         <img height={40} src={logo} />
       </Navbar.Brand>

@@ -25,3 +25,11 @@
   color: #ffffff !important;
   font-weight: bold;
 }
+
+.navbar {
+  padding: 10px 100px !important;
+}
+
+.Header__Navbar.bg-dark {
+  background-color: rgba(50, 50, 50, 0.6) !important;
+}
